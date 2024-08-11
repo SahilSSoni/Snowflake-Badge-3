@@ -1,0 +1,96 @@
+Badge 3
+Data Application Builder Workshop
+
+Question : What does Mel want to do with his life?
+Ans:  3.
+1.	Run his parents' diner.
+2.	Hang out in his parents' basement.
+3.	Create Cloud Applications. (RIGHT ANSWER)
+
+Question : How does Melanie want to change the diner?
+Select all that apply.
+Answer  : 1 , 2, 3
+1.	She wants to update the menu. (RIGHT ANSWER)
+2.	She wants to include more healthy food. (RIGHT ANSWER)
+3.	She wants to offer custom smoothies. (RIGHT ANSWER)
+4.	She wants to drive her husband, Igor, crazy.
+
+Question: What is Igor probably hoping to avoid?
+Select all that apply.
+Answer : 1,2,3 and 4
+1.	Indecisive customers. (RIGHT ANSWER)
+2.	Health food. (RIGHT ANSWER)
+3.	Change. (RIGHT ANSWER)
+4.	Divorce. (RIGHT ANSWER)
+
+
+Question : Is a Snowflake Trial Account required for this workshop?
+Answer: 1 Yes
+1.	Yes (RIGHT ANSWER)
+2.	No
+
+
+Question : Which cloud provider is required for your Snowflake Trial Account for this workshop?
+Answer:  1. AWS
+1.	Amazon Web Services (AWS) (RIGHT ANSWER)
+2.	Microsoft Azure
+3.	Google Cloud Platform (GCP)
+
+Question : Which geographical region is required for your Snowflake Trial Account for this workshop?
+Answer:  2
+1.	Canada_Ottawa
+2.	There is no region requirement. Any region is fine. (But Jakarta and Zurich can sometimes have issues) (RIGHT ANSWER)
+3.	EU
+4.	Peru Lima
+
+Question : If your Snowflake trial account is on the wrong cloud for the current workshop, what should you do?
+Answer:  2
+1.	File a ticket asking to have the account converted or moved.
+2.	Sign up for a new trial account on the right cloud. Accounts cannot be converted or moved. (RIGHT ANSWER)
+3.	Wait until you've completed over half the course and them post in a message board asking to have your account moved to a different cloud.
+
+Question : If your trial account runs out of time or credits in the middle of the workshop how can you get more free credits?
+Answer : 1. 
+1.	You can't. But for alternate approaches, you can read the FAQs. (RIGHT ANSWER)
+2.	Perform a credit conjuring ritual with black candles and oregano.
+3.	Wait until the full moon and place a rotten tomato in a bowl on your doorstep.
+
+
+
+
+
+ 
+
+Add any as per your knowledge
+
+Paste the below code: Adding Interactive Elements page lab
+
+import streamlit as st
+
+option = st.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone"),
+)
+
+st.write("You selected:", option)
+
+As per the instruction delete the code.
+
+
+Create a FRUIT_OPTIONS Table
+•	Create a table called FRUIT_OPTIONS in the PUBLIC schema of your SMOOTHIES database.
+•	Make sure it owned by the SYSADMIN Role. 
+•	The table should have two columns:
+o	First column should be named FRUIT_ID and hold a number. 
+o	Second column should be named FRUIT_NAME and hold text up to 25 characters long. 
+
+
+
+
+
+
+
+
+
+
+
